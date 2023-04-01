@@ -24,10 +24,12 @@ The incidence matrix should be entered as a list of lists, with the vertices as 
 - 0 if the edge is not connected to the vertex
 
 Example input:
+```
 [[1, 0, 0, 0, -1],
  [0, 1, -1, 0, 0],
  [0, -1, 1, -1, 0],
  [0, 0, 0, 1, 1]]
+ ```
 
 ### Output Format
 
