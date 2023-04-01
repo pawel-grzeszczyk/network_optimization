@@ -19,17 +19,18 @@ This Python program implements the Depth-First Search (DFS) and Breadth-First Se
 ### Input Format
 
 The graph should be entered as a dictionary where vertices are keys and their values are neighbors of a particular vertex.
+
 Example:
-{
-'0': ['1'],
+```
+{'0': ['1'],
 '1': ['0', '2', '5'],
 '2': ['1', '3', '4'],
 '3': ['2'],
 '4': ['2'],
 '5': ['1', '6'],
 '6': ['5', '7'],
-'7': ['6']
-}
+'7': ['6']}
+```
 
 ### Output Format
 
